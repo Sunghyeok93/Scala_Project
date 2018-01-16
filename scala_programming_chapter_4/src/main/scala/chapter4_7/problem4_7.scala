@@ -16,6 +16,7 @@ object problem4_7 {
       printf("%-" + (longestLength + 1) +"s | %s%n", key, value)
     }
 
+    print(("hello yo"))
   }
 
 }
