@@ -23,6 +23,6 @@ object problem5_8 {
     //car1.year = 123
     //car1.made = "aaa"
 
-    
+
   }
 }
