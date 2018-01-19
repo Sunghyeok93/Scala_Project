@@ -14,6 +14,8 @@ object problem4_7 {
 
     for ((key, value) <- props) {
       printf("%-" + (longestLength + 1) +"s | %s%n", key, value)
+
+
     }
   }
 
