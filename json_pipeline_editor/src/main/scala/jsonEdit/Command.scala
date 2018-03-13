@@ -44,6 +44,7 @@ object Command {
     private var mandatory: Boolean = false
     private var value: String = null
     private var name: String = null
+    private var option: util.List[Command.Option] = null
 
     def getParameter: Command.Parameter = parameter
 
@@ -80,6 +81,13 @@ object Command {
     def setName(name: String): Unit = {
       this.name = name
     }
+
+    def getOption: util.List[Command.Option] = option
+
+    def setOption(option: util.List[Command.Option]): Unit = {
+      this.option = option
+    }
+
   }
 
   class Parameter {
